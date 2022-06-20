@@ -13,6 +13,15 @@
 		D17B986028608C8000743556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17B985E28608C8000743556 /* Main.storyboard */; };
 		D17B986228608C8100743556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17B986128608C8100743556 /* Assets.xcassets */; };
 		D17B986528608C8100743556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17B986328608C8100743556 /* LaunchScreen.storyboard */; };
+		D17B9875286090D100743556 /* JsonEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B986D286090D100743556 /* JsonEncoder.swift */; };
+		D17B9876286090D100743556 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B986F286090D100743556 /* NotificationName.swift */; };
+		D17B9877286090D100743556 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B9870286090D100743556 /* UIColor.swift */; };
+		D17B9878286090D100743556 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B9871286090D100743556 /* UIViewControllerExtension.swift */; };
+		D17B9879286090D100743556 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B9872286090D100743556 /* NSObject.swift */; };
+		D17B987A286090D100743556 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B9873286090D100743556 /* String.swift */; };
+		D17B987B286090D100743556 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B9874286090D100743556 /* UIImageView.swift */; };
+		D17B987D2860910700743556 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B987C2860910700743556 /* UILabel.swift */; };
+		D17B987F2860912C00743556 /* ProjectColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B987E2860912C00743556 /* ProjectColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		D17B986128608C8100743556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D17B986428608C8100743556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D17B986628608C8100743556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17B986D286090D100743556 /* JsonEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonEncoder.swift; sourceTree = "<group>"; };
+		D17B986F286090D100743556 /* NotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		D17B9870286090D100743556 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D17B9871286090D100743556 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		D17B9872286090D100743556 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		D17B9873286090D100743556 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		D17B9874286090D100743556 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		D17B987C2860910700743556 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		D17B987E2860912C00743556 /* ProjectColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +78,36 @@
 				D17B985A28608C8000743556 /* SceneDelegate.swift */,
 				D17B985C28608C8000743556 /* ViewController.swift */,
 				D17B985E28608C8000743556 /* Main.storyboard */,
+				D17B986C286090D100743556 /* Utility */,
 				D17B986128608C8100743556 /* Assets.xcassets */,
 				D17B986328608C8100743556 /* LaunchScreen.storyboard */,
 				D17B986628608C8100743556 /* Info.plist */,
 			);
 			path = TemplateApp;
+			sourceTree = "<group>";
+		};
+		D17B986C286090D100743556 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D17B986D286090D100743556 /* JsonEncoder.swift */,
+				D17B987E2860912C00743556 /* ProjectColor.swift */,
+				D17B986E286090D100743556 /* Extensions */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D17B986E286090D100743556 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D17B986F286090D100743556 /* NotificationName.swift */,
+				D17B9870286090D100743556 /* UIColor.swift */,
+				D17B9871286090D100743556 /* UIViewControllerExtension.swift */,
+				D17B9872286090D100743556 /* NSObject.swift */,
+				D17B9873286090D100743556 /* String.swift */,
+				D17B9874286090D100743556 /* UIImageView.swift */,
+				D17B987C2860910700743556 /* UILabel.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +182,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D17B985D28608C8000743556 /* ViewController.swift in Sources */,
+				D17B9879286090D100743556 /* NSObject.swift in Sources */,
+				D17B9877286090D100743556 /* UIColor.swift in Sources */,
+				D17B987A286090D100743556 /* String.swift in Sources */,
 				D17B985928608C8000743556 /* AppDelegate.swift in Sources */,
+				D17B9875286090D100743556 /* JsonEncoder.swift in Sources */,
+				D17B987B286090D100743556 /* UIImageView.swift in Sources */,
+				D17B9876286090D100743556 /* NotificationName.swift in Sources */,
+				D17B9878286090D100743556 /* UIViewControllerExtension.swift in Sources */,
+				D17B987D2860910700743556 /* UILabel.swift in Sources */,
 				D17B985B28608C8000743556 /* SceneDelegate.swift in Sources */,
+				D17B987F2860912C00743556 /* ProjectColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
