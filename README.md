@@ -1,0 +1,2 @@
+# TemplateApp
+ExtensionやUtilityなど、すべてのアプリで利用するファイルをまとめたもの
